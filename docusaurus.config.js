@@ -44,15 +44,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/torrentpier/docs/tree/master/',
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -88,7 +88,7 @@ const config = {
           },
         ],
       },
-      footer: {
+      /*footer: {
         style: 'dark',
         links: [
           {
@@ -132,7 +132,7 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      },*/
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
