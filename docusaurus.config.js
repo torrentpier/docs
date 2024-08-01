@@ -30,8 +30,16 @@ const config = {
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
     i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
+        defaultLocale: 'ru',
+        locales: ['ru', 'en'],
+        localeConfigs: {
+            en: {
+                label: 'English',
+            },
+            ru: {
+                label: 'Русский',
+            }
+        }
     },
 
     presets: [
@@ -40,19 +48,15 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    routeBasePath: '/',
+                    sidebarCollapsible: false,
                     sidebarPath: './sidebars.js',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
                         'https://github.com/torrentpier/docs/tree/master/',
                 },
-                /*blog: {
-                  showReadingTime: true,
-                  // Please change this to your repo.
-                  // Remove this to remove the "edit this page" links.
-                  editUrl:
-                    'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                },*/
+                blog: false,
                 theme: {
                     customCss: './src/css/custom.css',
                 },
