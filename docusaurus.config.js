@@ -76,9 +76,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://torrentpier.duckdns.org', label: 'Demo version', position: 'left'},
+          {to: 'https://get-torrentpier.duckdns.org', label: 'Get TorrentPier', position: 'left'},
+          {to: 'https://torrentpier.com', label: 'Our Forum', position: 'left'},
           {
             href: 'https://github.com/torrentpier/torrentpier',
             label: 'GitHub',
